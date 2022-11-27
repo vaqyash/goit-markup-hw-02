@@ -43,6 +43,10 @@ nav {
     color: #4D5AE5;
 }
 
+/* a {
+    text-decoration: none;
+} */
+
 .nav-list {
     display: flex;
         flex-direction: row;
@@ -66,6 +70,7 @@ nav {
     /* NAVY BLUE */
     color: #2E2F42;
     text-decoration: none;
+    list-style: none;
 }
 
 
