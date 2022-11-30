@@ -1,22 +1,102 @@
 
-/* Global styles */
+/* - Global styles */
 
 body {
     font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
     background-color: #fff;
-    height: 100%;
-    /* width: 1440px;
-    height: 2593px; */
+    color: #2E2F42;
+    /* height: 100%; */
 }
 
-/* Header */
+/* - --- Header */
 
-header {
-    height: 72px;
-    padding: 24px 0;
+.header {
+    /* height: 72px;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    padding: 24px 0; */
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3333;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+    text-decoration: none;
+    /* padding-left: 156px; */
+}
+
+.accent {
+    color: #4D5AE5;
+}
+
+.nav-list {
+    list-style-type: none;
+    /* padding: 0px;
+    gap: 40px; */
+}
+
+.nav-item {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2E2F42;
+}
+
+.nav-item:hover {
+    color: #4D5AE5;;
+}
+
+.nav-item:focus {
+    color: #434455;
+}
+
+.header-conts {
+    list-style-type: none;
+}
+
+.tel-mail {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.tel-mail:hover, .tel-mail:focus {
+    color: #4D5AE5;
 }
 
 /* Main */
+
+.hero {
+    background: #2E2F42;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 107%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.order-btn {
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.1875;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.order-btn:hover {
+    background: #404BBF;
+}
 
 /* Footer */
 
@@ -48,10 +128,8 @@ header {
     width: 71px;
     height: 24px;
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 24px;
+  
+    
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
@@ -64,9 +142,7 @@ header {
     
 }
 
-.accent {
-    color: #4D5AE5;
-}
+
 
 a {
     text-decoration: none;
@@ -97,9 +173,7 @@ a {
     list-style: none;
 }
 
-.nav-item {
-    text-decoration: none;
-} */
+ */
 
 
 
