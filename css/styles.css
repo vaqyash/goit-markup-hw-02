@@ -102,6 +102,29 @@ body {
     background: #404BBF;
 }
 
+.card-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.sect-header {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.1111;
+}
+
+.our-team {
+    background: #F4F4FD;
+}
+
 /* Footer */
 
 .footer {
